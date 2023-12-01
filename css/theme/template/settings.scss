@@ -48,3 +48,41 @@ $overlayElementFgColor: 0, 0, 0;
 @mixin bodyBackground() {
 	background: $backgroundColor;
 }
+
+// Custom
+/*
+@mixin bodyBackground() {
+    .hidden-text {
+        color: $backgroundColor;
+    }
+}
+
+.hidden-image {
+    visibility: hidden;
+}
+
+.highlight {
+    color: white;
+    background-color: green;
+    display: inline-block;
+    border: 1px solid #000;
+    border-radius: .25rem;
+}
+*/
+
+.caption {
+    font-size: smaller;
+}
+
+.attribution {
+    font-size: small;
+}
+
+.img-container {
+    overflow: hidden;
+}
+
+.thumbnail {
+    max-width: 20vh !important;
+    max-height: 20vh !important;
+}

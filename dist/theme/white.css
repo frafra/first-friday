@@ -3,7 +3,43 @@
  *
  * By Hakim El Hattab, http://hakim.se
  */
+/*
+@mixin bodyBackground() {
+    .hidden-text {
+        color: $backgroundColor;
+    }
+}
+
+.hidden-image {
+    visibility: hidden;
+}
+
+.highlight {
+    color: white;
+    background-color: green;
+    display: inline-block;
+    border: 1px solid #000;
+    border-radius: .25rem;
+}
+*/
 @import url(./fonts/source-sans-pro/source-sans-pro.css);
+.caption {
+  font-size: smaller;
+}
+
+.attribution {
+  font-size: small;
+}
+
+.img-container {
+  overflow: hidden;
+}
+
+.thumbnail {
+  max-width: 20vh !important;
+  max-height: 20vh !important;
+}
+
 section.has-dark-background, section.has-dark-background h1, section.has-dark-background h2, section.has-dark-background h3, section.has-dark-background h4, section.has-dark-background h5, section.has-dark-background h6 {
   color: #fff;
 }
